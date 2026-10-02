@@ -44,7 +44,7 @@ To turn off the first-launch tuning completely, set `"enabled": false` in `confi
 
 1. Install [Fabric Loader](https://fabricmc.net/use/) for Minecraft 1.21.1.
 2. Put [Fabric API](https://modrinth.com/mod/fabric-api) in your `mods` folder.
-3. Download `autotuner-x.x.x.jar` from the latest [Actions build](../../actions) (open the newest run, grab the **AutoTuner** artifact) and put it in `mods`.
+3. Download `autotuner-x.x.x.jar` from [**Releases**](../../releases) and put it in `mods`.
 
 It's client-side only. Servers don't need it.
 
