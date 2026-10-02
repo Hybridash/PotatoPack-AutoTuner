@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "autotuner",
+	"version": "${version}",
+	"name": "PotatoPack AutoTuner",
+	"description": "On first launch, checks your GPU, CPU and RAM and picks video settings that fit your PC. Type /autotune to change or undo it.",
+	"authors": ["Hybridash"],
+	"contact": {
+		"sources": "https://github.com/Hybridash/PotatoPack-AutoTuner",
+		"issues": "https://github.com/Hybridash/PotatoPack-AutoTuner/issues"
+	},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.hybridash.autotuner.AutoTunerClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
