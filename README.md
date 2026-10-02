@@ -55,3 +55,5 @@ It's client-side only. Servers don't need it.
 ```
 
 The jar ends up in `build/libs/`.
+
+To ship an update, bump `mod_version` in `gradle.properties` and push. GitHub Actions builds it and publishes a release automatically.
